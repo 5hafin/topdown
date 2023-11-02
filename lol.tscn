@@ -1,18 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://bag8hul42ynt5"]
+[gd_scene load_steps=2 format=3 uid="uid://bag8hul42ynt5"]
 
 [ext_resource type="Texture2D" uid="uid://buo5dwmuvvuqw" path="res://723648a75234d8e056a87b87ada2ac5c.png" id="1_ss647"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_blr6o"]
-size = Vector2(16.2913, 57.083)
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_28im7"]
-radius = 16.0312
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_jmckd"]
-size = Vector2(20, 133.751)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_35t7x"]
-size = Vector2(29.5, 57)
 
 [node name="Lol" type="Node2D"]
 
@@ -20,57 +8,3 @@ size = Vector2(29.5, 57)
 position = Vector2(540.962, 321)
 scale = Vector2(1.24382, 1.32136)
 texture = ExtResource("1_ss647")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(280.095, 582.013)
-rotation = 0.47822
-shape = SubResource("RectangleShape2D_blr6o")
-
-[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
-position = Vector2(157, 344)
-rotation = -1.31772
-shape = SubResource("RectangleShape2D_blr6o")
-
-[node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
-position = Vector2(235, 370)
-rotation = -1.07861
-shape = SubResource("RectangleShape2D_blr6o")
-
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
-position = Vector2(296, 478)
-rotation = -0.120428
-shape = SubResource("RectangleShape2D_blr6o")
-
-[node name="CollisionShape2D5" type="CollisionShape2D" parent="."]
-position = Vector2(214, 553)
-shape = SubResource("CircleShape2D_28im7")
-
-[node name="CollisionShape2D6" type="CollisionShape2D" parent="."]
-position = Vector2(177, 473)
-shape = SubResource("CircleShape2D_28im7")
-
-[node name="CollisionShape2D7" type="CollisionShape2D" parent="."]
-position = Vector2(233, 443)
-shape = SubResource("CircleShape2D_28im7")
-
-[node name="CollisionShape2D8" type="CollisionShape2D" parent="."]
-position = Vector2(151, 403)
-shape = SubResource("CircleShape2D_28im7")
-
-[node name="CollisionShape2D9" type="CollisionShape2D" parent="."]
-position = Vector2(38, 419)
-shape = SubResource("CircleShape2D_28im7")
-
-[node name="CollisionShape2D10" type="CollisionShape2D" parent="."]
-position = Vector2(72, 374)
-shape = SubResource("CircleShape2D_28im7")
-
-[node name="CollisionShape2D11" type="CollisionShape2D" parent="."]
-position = Vector2(362.77, 567.631)
-rotation = 0.359538
-shape = SubResource("RectangleShape2D_jmckd")
-
-[node name="CollisionShape2D12" type="CollisionShape2D" parent="."]
-position = Vector2(401, 532)
-rotation = 0.359538
-shape = SubResource("RectangleShape2D_35t7x")

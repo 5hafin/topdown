@@ -6,7 +6,6 @@
 [node name="main" type="Node2D"]
 
 [node name="Lol" parent="." instance=ExtResource("1_c0in4")]
-visible = false
 light_mask = 1048575
 visibility_layer = 1048575
 position = Vector2(-6, 8)
