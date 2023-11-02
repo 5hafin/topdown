@@ -12,8 +12,8 @@ collision_mask = 65535
 script = ExtResource("1_fwng0")
 
 [node name="BackgroundEraser20231102135402060" type="Sprite2D" parent="."]
-position = Vector2(14.2108, 240)
-scale = Vector2(0.940406, 0.77303)
+position = Vector2(967.5, -61)
+scale = Vector2(1.13698, 0.20133)
 texture = ExtResource("2_je52u")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
