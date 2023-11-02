@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://7esgwlebbgk2" path="res://BackgroundEraser_20231102_135402060.png" id="2_je52u"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tnxhy"]
-size = Vector2(1002.34, 563.084)
+size = Vector2(554.906, 132.009)
 
 [node name="player" type="CharacterBody2D"]
 collision_layer = 65535
@@ -12,13 +12,13 @@ collision_mask = 65535
 script = ExtResource("1_fwng0")
 
 [node name="BackgroundEraser20231102135402060" type="Sprite2D" parent="."]
-position = Vector2(967.5, -61)
-scale = Vector2(1.13698, 0.20133)
+position = Vector2(235, 297.25)
+scale = Vector2(2.79271, 0.317664)
 texture = ExtResource("2_je52u")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 light_mask = 2
 visibility_layer = 7
-position = Vector2(370, 174)
+position = Vector2(232, 359)
 scale = Vector2(0.428, 0.428)
 shape = SubResource("RectangleShape2D_tnxhy")

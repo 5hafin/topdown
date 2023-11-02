@@ -6,12 +6,13 @@
 [node name="main" type="Node2D"]
 
 [node name="Lol" parent="." instance=ExtResource("1_c0in4")]
+visible = false
 light_mask = 1048575
 visibility_layer = 1048575
 position = Vector2(-6, 8)
 
 [node name="player" parent="." instance=ExtResource("2_5usns")]
-position = Vector2(-447, 395)
+position = Vector2(266, -84)
 disable_mode = 2
 collision_layer = 4294967295
 collision_mask = 4294967295
